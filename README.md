@@ -72,7 +72,10 @@ https://chocolatey.org/docs/helpers-get-chocolatey-web-file
 
 ### Troubleshooting install shield errors and inputs
 https://www.symantec.com/connect/articles/windows-system-error-codes-exit-codes-description
+
 http://www.silentinstall.org/InstallShield
+https://www.itninja.com/blog/view/installshield-setup-silent-installation-switches
+https://www.itninja.com/static/090770319967727eb89b428d77dcac07.pdf
 
 
 
