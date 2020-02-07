@@ -1,12 +1,5 @@
 # Windows Dev Box On-Demand
 
-### Choco docs
-
-https://chocolatey.org/docs
-
-### example pkgs
-
-https://github.com/liatrio/choco_poc
 
 ## Clone this repo
 
@@ -64,8 +57,24 @@ cd c:\
 choco new test2 -a --version 0.0.1 maintainername="'myusername'"
 choco pack
 choco push
+choco install test2
 
 ```
+## Helpful Links
+### Choco docs
+https://chocolatey.org/docs
+
+### example pkgs
+https://github.com/liatrio/choco_poc
+
+### Helpers
+https://chocolatey.org/docs/helpers-get-chocolatey-web-file
+
+### Troubleshooting install shield errors and inputs
+https://www.symantec.com/connect/articles/windows-system-error-codes-exit-codes-description
+http://www.silentinstall.org/InstallShield
+
+
 
 ## Destroy it when done
 
