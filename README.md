@@ -1,4 +1,12 @@
-### Choco Dev Box On-Demand
+# Windows Dev Box On-Demand
+
+### Choco docs
+
+https://chocolatey.org/docs
+
+### example pkgs
+
+https://github.com/liatrio/choco_poc
 
 ## Clone this repo
 
