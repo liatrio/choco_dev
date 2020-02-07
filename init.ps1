@@ -27,6 +27,8 @@ choco source disable --name chocolatey
 # Add internal package source
 choco source add -n liatrio -s="https://artifactory.liatr.io/artifactory/api/nuget/choco-local"
 
+# Add an internal package
+# choco install assetexplorer -y
 
 # Make a new package
 cd c:\
