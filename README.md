@@ -67,8 +67,16 @@ https://chocolatey.org/docs
 ### example pkgs
 https://github.com/liatrio/choco_poc
 
+
+
 ### Helpers
 https://chocolatey.org/docs/helpers-get-chocolatey-web-file
+
+### Recording Answer files
+https://github.com/liatrio/choco_poc/blob/master/example_pkgs/AssetExplorer/tools/chocolateyinstall.ps1#L4-L13
+```
+PS C:\Users\azureuser\Downloads> .\ManageEngine_AssetExplorer_64bit.exe /r /f1"c:\setup.iss"
+```
 
 ### Troubleshooting install shield errors and inputs
 https://www.symantec.com/connect/articles/windows-system-error-codes-exit-codes-description
