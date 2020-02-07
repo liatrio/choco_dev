@@ -31,7 +31,10 @@ See This Guide:
 https://www.terraform.io/docs/providers/azurerm/guides/service_principal_client_secret.html
 
 #### Example provider file.
+
 ```
+cat provider.tf
+
 provider "azurerm" {
     subscription_id = "5e1a2851-dontuse-my-secret-ids"
     client_id       = "cd80ecf8-dontuse-my-secret-ids"
