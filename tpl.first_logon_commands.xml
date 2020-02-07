@@ -1,0 +1,22 @@
+<FirstLogonCommands>
+  <SynchronousCommand>
+      <Order>1</Order>
+      <CommandLine>REG ADD &quot;HKCU\Software\Microsoft\ServerManager\DonotLaunchServerManagerAtLogon&quot; /F 1</CommandLine>
+      <Description>No Launch ServerManager At Logon</Description>
+  </SynchronousCommand>
+  <SynchronousCommand>
+      <Order>2</Order>
+      <CommandLine>REG ADD &quot;HKLM\System\CurrentControlSet\Control\Network\NewNetworkWindowOff&quot; /F</CommandLine>
+      <Description>No New Network Block</Description>
+  </SynchronousCommand>
+  <SynchronousCommand>
+    <CommandLine>cmd /c "copy C:\AzureData\CustomData.bin C:\init.ps1"</CommandLine>
+    <Description>CopyScript</Description>
+    <Order>11</Order>
+  </SynchronousCommand>
+  <SynchronousCommand>
+    <CommandLine>powershell.exe -sta -ExecutionPolicy Unrestricted -File C:\init.ps1</CommandLine>
+    <Description>RunScript</Description>
+    <Order>12</Order>
+  </SynchronousCommand>
+</FirstLogonCommands>
