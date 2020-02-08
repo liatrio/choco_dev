@@ -78,11 +78,16 @@ https://github.com/liatrio/choco_poc/blob/master/example_pkgs/AssetExplorer/tool
 PS C:\Users\azureuser\Downloads> .\ManageEngine_AssetExplorer_64bit.exe /r /f1"c:\setup.iss"
 ```
 
-### Troubleshooting install shield errors and inputs
+### Troubleshooting errors 
 https://www.symantec.com/connect/articles/windows-system-error-codes-exit-codes-description
 
+### Install shield input flags
 http://www.silentinstall.org/InstallShield
+
+#### summary
 https://www.itninja.com/blog/view/installshield-setup-silent-installation-switches
+
+#### full list
 https://www.itninja.com/static/090770319967727eb89b428d77dcac07.pdf
 
 
